@@ -1,0 +1,4 @@
+{
+    "src/jquery.myplugin.js": "src/jquery.{%= name %}.js",
+    "test/spec/jquery.myplugin.spec.js": "test/spec/jquery.{%= name %}.spec.js"
+}

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>{%= title %}</title>
+		<script src="../node_modules/jquery/dist/jquery.min.js"></script>
+		<script src="../src/jquery.{%= name %}.js"></script>
+	</head>
+	<body>
+        <h1>{%= title %}</h1>
+        <p>{%= description %}</p>
+        <h2>Example</h2>
+		<div id="element"></div>
+		<script>
+			$( function() {
+				$( "#element" ).{%= js_safe_name %}( {
+					propertyName: "a custom value"
+				} );
+			} );
+		</script>
+	</body>
+</html>

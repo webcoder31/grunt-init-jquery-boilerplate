@@ -1,0 +1,24 @@
+{
+    "name": "{%= name %}",
+    "license": "{%= licenses %}",
+    "authors": [
+        "{%= author_name %} <{%= author_email %}>"
+    ],
+    "description": "{%= description %}",
+    "homepage": "{%= homepage %}",
+    "keywords": [
+        "jquery",
+        "plugin",
+        "jquery-plugin",
+        "{%= name %}"
+    ],
+    "main": "src/jquery.{%= name %}.js",
+    "dependencies": {
+        "jquery": "{%= jquery_version %}"
+    },
+    "ignore": [
+        "npm-debug.log",
+        "bower_components",
+        "node_modules"
+    ]
+}
