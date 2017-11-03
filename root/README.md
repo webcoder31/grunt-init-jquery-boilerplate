@@ -2,6 +2,20 @@
 
 > {%= description %}
 
+![{%= name %}](./.github/README.jpg?raw=true "{%= title %}")
+
+
+## Summary
+
+<!-- MarkdownTOC autolink="true" link_prefix="user-content-" uri_encoding="false" autoanchor="false" bracket="round" markdown_preview="github"-->
+
+- [Usage](#user-content-usage)
+- [Contributing](#user-content-contributing)
+- [History](#user-content-history)
+- [License](#user-content-license)
+
+<!-- /MarkdownTOC -->
+
 
 ## Usage
 
@@ -28,7 +42,9 @@
 
 ## Contributing
 
-Check [CONTRIBUTING.md]({%= repo_url %}/blob/master/CONTRIBUTING.md) for more information.
+You can report issues or suggest improvments [here]({%= repo_url %}e/issues).
+
+Want to submit your own feature? Please, look at [CONTRIBUTING.md]({%= repo_url %}/blob/master/.github/CONTRIBUTING.md) for a guideline.
 
 
 ## History

@@ -3,6 +3,7 @@
 > Get a ready-to-use jQuery plugin boilerplate in less than a minute and start developing right now!
 
 <!-- Link's sortcuts -->
+[grunt]: http://gruntjs.com/
 [grunt-init]: http://gruntjs.com/project-scaffolding
 [karma]: http://karma-runner.github.io/
 [QUnit]: https://qunitjs.com/
@@ -11,11 +12,11 @@
 
 ![grunt-init-jquery-boilerplate](./.github/README.jpg?raw=true "grunt-init-jquery-boilerplate")
 
-**grunt-init-jquery-boilerplate** is a **[grunt-init][] template** that scaffolds a boilerplate to develop a jQuery plugin in an easy way. 
+**grunt-init-jquery-boilerplate** is a **[grunt-init][] template** that scaffolds a boilerplate to develop a **jQuery plugin** in an easy way. 
 
-This tool provide all the materials to:
+The purpose of this tool is to provide everything needed to:
 
-- Quickly get an operating environment for developing your own jQuery plugin with [grunt-init][] CLI.
+- Quickly get an operating environment for developing your own jQuery plugin with [grunt][] tools.
 - Ensure good coding practices (code checking and code linting with [JSCS][] and [JSHint][]).
 - Encourage reliability and maintainability (unit testing with [QUnit][] and [Karma][]).
 - Facilitate sharing (**GitHub** ready, manifest files for **npm**, **bower** and **jQuery plugins** registries).
@@ -28,11 +29,13 @@ This tool provide all the materials to:
 - [Requirements](#user-content-requirements)
 - [Installation](#user-content-installation)
 - [Usage](#user-content-usage)
-- [Register your plugin](#user-content-register-your-plugin)
-- [Thanks](#user-content-thanks)
-- [License](#user-content-license)
+    - [Scaffolding your plugin boilerplate](#user-content-scaffolding-your-plugin-boilerplate)
+    - [Coding, checking, building and testing your plugin](#user-content-coding-checking-building-and-testing-your-plugin)
+    - [Registering your plugin](#user-content-registering-your-plugin)
 - [Contributing](#user-content-contributing)
 - [History](#user-content-history)
+- [Thanks](#user-content-thanks)
+- [License](#user-content-license)
 
 <!-- /MarkdownTOC -->
 
@@ -52,7 +55,7 @@ npm install -g grunt-init
 
 Once **grunt-init** is installed, place the **grunt-init-jquery-boilerplate** template in the following folder `.grunt-init/` of your home directory. It's recommended that you use **git** to clone this template into that directory, as follows.
 
-All OS (excepting Windows):
+All OS (excepted Windows):
 ```
 git clone https://github.com/webcoder31/grunt-init-jquery-boilerplate.git ~/.grunt-init/jquery-boilerplate
 ```
@@ -65,15 +68,20 @@ git clone https://github.com/webcoder31/grunt-init-jquery-boilerplate.git %USERP
 
 ## Usage
 
+### Scaffolding your plugin boilerplate
+
 At the command-line, move into an empty directory, run this command and follow the prompts.
 
 ```
 grunt-init jquery-boilerplate
 ```
 
-Once done, if you named your plugin project "**myplugin**", you've got a ready-to-use project with the following basic structure:
+Once done, if for example you named your plugin project "**myplugin**" when prompted, you've got a ready-to-use project with the following basic structure:
 
 ```
+├── .github/
+│   ├── CONTRIBUTING.md ................ // Instructions for others to contribute to your plugin
+│   └── README.jpg ..................... // README illustration for your plugin
 ├── demo/
 │   └── index.html ..................... // Demo page of your plugin (based on the source file)
 ├── dist/
@@ -91,7 +99,6 @@ Once done, if you named your plugin project "**myplugin**", you've got a ready-t
 ├── .jshintrc .......................... // Checks applied to the source code
 ├── .npmignore
 ├── bower.json ......................... // Bower package manifest
-├── CONTRIBUTING.md .................... // Instructions for others to contribute
 ├── Gruntfile.js ....................... // Grunt tasks definitions
 ├── karma.conf.js ...................... // Karma configuration (used by Karma CLI only, not grunt)
 ├── LICENSE-XXX ........................ // License(s) file(s)
@@ -100,9 +107,14 @@ Once done, if you named your plugin project "**myplugin**", you've got a ready-t
 └── README.md .......................... // README file of your plugin
 ```
 
-Then you have to run `npm install` to install all required dependencies and you're done !
+Then you have to run `npm install` to install all required dependencies. This wiil create a `node_modules` folder containing all required dependencies at the root of your project. 
 
-Now that you have a ready-to-use jQuery boilerplate you can start developing your own plugin (and test it) with the help of the following available `grunt` commands:
+Then, you're done!
+
+
+### Coding, checking, building and testing your plugin
+
+Now that you have a ready-to-use jQuery boilerplate you can start developing your own plugin and test it with the help of the following available `grunt` commands:
 
 - `grunt build` to produce the distribution version of your plugin and the minified one.
 - `grunt test` to run unit tests on the distrib version of your plugin (see [QUnit][]).
@@ -111,7 +123,7 @@ Now that you have a ready-to-use jQuery boilerplate you can start developing you
 - `grunt` to verify your code is OK, build it and test it.
 
 
-## Register your plugin
+### Registering your plugin
 
 Once your plugin is ready and you published it on GitHub, you can easily register it to npm, bower and also jQuery plugin registries. All the required files are already provided in your project. 
 
@@ -124,6 +136,18 @@ See the following documentations to learn how:
 
 **Note:** The jQuery Plugin Registry is in read-only mode. New plugin releases will not be processed.
 jQuery recommends moving to [npm](https://www.npmjs.com/), using ["jquery-plugin"](https://www.npmjs.com/browse/keyword/jquery-plugin) as the keyword in your package.json. See [how to publish into npm registry](https://gist.github.com/coolaj86/1318304).
+
+
+## Contributing
+
+You can report issues or suggest improvments [here](https://github.com/webcoder31/grunt-init-jquery-boilerplate/issues).
+
+Want to submit your own feature? Please, look at [CONTRIBUTING.md](https://github.com/webcoder31/grunt-init-jquery-boilerplate/blob/master/.github/CONTRIBUTING.md) for a guideline.
+
+
+## History
+
+Check [Releases](https://github.com/webcoder31/grunt-init-jquery-boilerplate/releases) for detailed changelog.
 
 
 ## Thanks
@@ -139,15 +163,3 @@ Thank you very much to everyone involved in these projects and their great work.
 ## License
 
 The present tool is governed by the CeCILL-C license under French law and complies with the free software distribution rules. You may use, modify and / or redistribute it according to the terms of the CeCILL-C license issued by CEA, CNRS and INRIA at the following address: http://www.cecill.info.
-
-
-## Contributing
-
-You can report issues or suggest improvments [here](https://github.com/webcoder31/grunt-init-jquery-boilerplate/issues).
-
-Want to submit your own feature? Please, look at [CONTRIBUTING.md](https://github.com/webcoder31/grunt-init-jquery-boilerplate/blob/master/.github/CONTRIBUTING.md) for a guideline.
-
-
-## History
-
-Check [Releases](https://github.com/webcoder31/grunt-init-jquery-boilerplate/releases) for detailed changelog.
