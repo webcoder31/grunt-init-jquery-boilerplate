@@ -31,6 +31,8 @@ This tool provide all the materials to:
 - [Register your plugin](#user-content-register-your-plugin)
 - [Thanks](#user-content-thanks)
 - [License](#user-content-license)
+- [Contributing](#user-content-contributing)
+- [History](#user-content-history)
 
 <!-- /MarkdownTOC -->
 
@@ -137,3 +139,15 @@ Thank you very much to everyone involved in these projects and their great work.
 ## License
 
 The present tool is governed by the CeCILL-C license under French law and complies with the free software distribution rules. You may use, modify and / or redistribute it according to the terms of the CeCILL-C license issued by CEA, CNRS and INRIA at the following address: http://www.cecill.info.
+
+
+## Contributing
+
+You can report issues or suggest improvments [here](https://github.com/webcoder31/grunt-init-jquery-boilerplate/issues).
+
+Want to submit your own feature? Please, look at [CONTRIBUTING.md](https://github.com/webcoder31/grunt-init-jquery-boilerplate/blob/master/CONTRIBUTING.md) for a guideline.
+
+
+## History
+
+Check [Releases](https://github.com/webcoder31/grunt-init-jquery-boilerplate/releases) for detailed changelog.
