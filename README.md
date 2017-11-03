@@ -9,7 +9,7 @@
 [JSHint]: http://jshint.com/
 [JSCS]: http://jscs.info/
 
-![grunt-init-jquery-boilerplate](./README.jpg?raw=true "grunt-init-jquery-boilerplate")
+![grunt-init-jquery-boilerplate](./.github/README.jpg?raw=true "grunt-init-jquery-boilerplate")
 
 **grunt-init-jquery-boilerplate** is a **[grunt-init][] template** that scaffolds a boilerplate to develop a jQuery plugin in an easy way. 
 
@@ -145,7 +145,7 @@ The present tool is governed by the CeCILL-C license under French law and compli
 
 You can report issues or suggest improvments [here](https://github.com/webcoder31/grunt-init-jquery-boilerplate/issues).
 
-Want to submit your own feature? Please, look at [CONTRIBUTING.md](https://github.com/webcoder31/grunt-init-jquery-boilerplate/blob/master/CONTRIBUTING.md) for a guideline.
+Want to submit your own feature? Please, look at [CONTRIBUTING.md](https://github.com/webcoder31/grunt-init-jquery-boilerplate/blob/master/.github/CONTRIBUTING.md) for a guideline.
 
 
 ## History
