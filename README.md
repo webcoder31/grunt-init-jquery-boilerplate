@@ -55,12 +55,12 @@ npm install -g grunt-init
 
 Once **grunt-init** is installed, place the **grunt-init-jquery-boilerplate** template in the following folder `.grunt-init/` of your home directory. It's recommended that you use **git** to clone this template into that directory, as follows.
 
-All OS (excepted Windows):
+**All OS excepted Windows:**
 ```
 git clone https://github.com/webcoder31/grunt-init-jquery-boilerplate.git ~/.grunt-init/jquery-boilerplate
 ```
 
-Windows OS:
+**Windows OS:**
 ```
 git clone https://github.com/webcoder31/grunt-init-jquery-boilerplate.git %USERPROFILE%\.grunt-init\jquery-boilerplate
 ```
@@ -122,6 +122,7 @@ Now that you have a ready-to-use jQuery boilerplate you can start developing you
 - `grunt watch` to automatically verify your code is OK, build it and test it every time source or test files are modified.
 - `grunt` to verify your code is OK, build it and test it.
 
+**Note:** [JSCS][] linter is configured to ensure your code follows jQuery coding conventions. For more information, see [jQuery Core Style Guide](http://contribute.jquery.org/style-guide/js/).
 
 ### Registering your plugin
 
@@ -140,9 +141,10 @@ jQuery recommends moving to [npm](https://www.npmjs.com/), using ["jquery-plugin
 
 ## Contributing
 
-You can report issues or suggest improvments [here](https://github.com/webcoder31/grunt-init-jquery-boilerplate/issues).
+There are two ways to contribute to the **grunt-init-jquery-boilerplate** project:
 
-Want to submit your own feature? Please, look at [CONTRIBUTING.md](https://github.com/webcoder31/grunt-init-jquery-boilerplate/blob/master/.github/CONTRIBUTING.md) for a guideline.
+- You found a bug or wish to suggest an enhancement? You can report issues or ask for improvments [here](https://github.com/webcoder31/grunt-init-jquery-boilerplate/issues).
+- You want to contribute actively by providing your own feature? Please, look at the [Contributing Guideline](https://github.com/webcoder31/grunt-init-jquery-boilerplate/blob/master/.github/CONTRIBUTING.md).
 
 
 ## History
