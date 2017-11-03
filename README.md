@@ -12,11 +12,11 @@
 
 ![grunt-init-jquery-boilerplate](./.github/README.jpg?raw=true "grunt-init-jquery-boilerplate")
 
-**grunt-init-jquery-boilerplate** is a **[grunt-init][] template** that scaffolds a boilerplate to develop a **jQuery plugin** in an easy way. 
+**grunt-init-jquery-boilerplate** is a **[grunt-init][] template** that supply a boilerplate to develop a **jQuery plugin** in an easy way. 
 
 The purpose of this tool is to provide everything needed to:
 
-- Quickly get an operating environment for developing your own jQuery plugin with [grunt][] tools.
+- Quickly get an operating environment for developing your own jQuery plugin via [grunt-init][] CLI.
 - Ensure good coding practices (code checking and code linting with [JSCS][] and [JSHint][]).
 - Encourage reliability and maintainability (unit testing with [QUnit][] and [Karma][]).
 - Facilitate sharing (**GitHub** ready, manifest files for **npm**, **bower** and **jQuery plugins** registries).
@@ -47,7 +47,7 @@ In order, to use **grunt-init-jquery-boilerplate** you must have [Node.js](https
 
 ## Installation
 
-If you haven't already done so, install [grunt-init][].
+If you haven't already done so, install [grunt-init][]. It's a **grunt** tool dedicated to projects scaffolding.
 
 ```
 npm install -g grunt-init
@@ -65,6 +65,7 @@ Windows OS:
 git clone https://github.com/webcoder31/grunt-init-jquery-boilerplate.git %USERPROFILE%\.grunt-init\jquery-boilerplate
 ```
 
+From now on, you will no longer need to do this again to use the scaffolding tool with the supplied template. Both will be directly available and we will see how to use them in the next topic.
 
 ## Usage
 
@@ -81,7 +82,8 @@ Once done, if for example you named your plugin project "**myplugin**" when prom
 ```
 ├── .github/
 │   ├── CONTRIBUTING.md ................ // Instructions for others to contribute to your plugin
-│   └── README.jpg ..................... // README illustration for your plugin
+│   ├── README.jpg ..................... // README illustration for your plugin
+│   └── README.psd ..................... // Photoshop source file of README illustration
 ├── demo/
 │   └── index.html ..................... // Demo page of your plugin (based on the source file)
 ├── dist/
@@ -107,9 +109,7 @@ Once done, if for example you named your plugin project "**myplugin**" when prom
 └── README.md .......................... // README file of your plugin
 ```
 
-Then you have to run `npm install` to install all required dependencies. This wiil create a `node_modules` folder containing all required dependencies at the root of your project. 
-
-Then, you're done!
+Then you have to run `npm install` to install project dependencies. This wiil create a folder `node_modules` containing all required dependencies at the root of your project. 
 
 
 ### Coding, checking, building and testing your plugin
@@ -118,8 +118,8 @@ Now that you have a ready-to-use jQuery boilerplate you can start developing you
 
 - `grunt build` to produce the distribution version of your plugin and the minified one.
 - `grunt test` to run unit tests on the distrib version of your plugin (see [QUnit][]).
-- `grunt lint` to ensure the source code of your plugin is OK (see [JSHint][]) and it respect appropriate coding convention rules (see [JSCS][]).
-- `grunt watch` to automatically verify your code is OK, build it and test it every time your source files or test files are modified.
+- `grunt lint` to ensure the source code of your plugin is OK (see [JSHint][]) and it respect coding convention (see [JSCS][]).
+- `grunt watch` to automatically verify your code is OK, build it and test it every time source or test files are modified.
 - `grunt` to verify your code is OK, build it and test it.
 
 
