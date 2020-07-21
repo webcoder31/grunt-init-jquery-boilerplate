@@ -1,4 +1,4 @@
-# grunt-init-jquery-boilerplate
+# jquery-plugin-boilerplate
 
 > Get a ready-to-use jQuery plugin boilerplate in less than a minute and start developing right now!
 
@@ -10,9 +10,9 @@
 [JSHint]: http://jshint.com/
 [JSCS]: http://jscs.info/
 
-![grunt-init-jquery-boilerplate](./.github/README.jpg?raw=true "grunt-init-jquery-boilerplate")
+![jquery-plugin-boilerplate](./.github/README.jpg?raw=true "jquery-plugin-boilerplate")
 
-**grunt-init-jquery-boilerplate** is a **[grunt-init][] template** that supply a boilerplate to develop a **jQuery plugin** in an easy way. 
+**jquery-plugin-boilerplate** is a **[grunt-init][] template** that supply a boilerplate to develop a **jQuery plugin** in an easy way. 
 
 The purpose of this tool is to provide everything needed to:
 
@@ -42,7 +42,7 @@ The purpose of this tool is to provide everything needed to:
 
 ## Requirements
 
-In order, to use **grunt-init-jquery-boilerplate** you must have [Node.js](https://nodejs.org), [npm](https://www.npmjs.com) and [git](https://git-scm.com/) installed on your operating system.
+In order, to use **jquery-plugin-boilerplate** you must have [Node.js](https://nodejs.org), [npm](https://www.npmjs.com) and [git](https://git-scm.com/) installed on your operating system.
 
 
 ## Installation
@@ -53,16 +53,16 @@ If you haven't already done so, install [grunt-init][]. It's a **grunt** tool de
 npm install -g grunt-init
 ```
 
-Once **grunt-init** is installed, place the **grunt-init-jquery-boilerplate** template in the following folder `.grunt-init/` of your home directory. It's recommended that you use **git** to clone this template into that directory, as follows.
+Once **grunt-init** is installed, place the **jquery-plugin-boilerplate** template in the following folder `.grunt-init/` of your home directory. It's recommended that you use **git** to clone this template into that directory, as follows.
 
 **All OS excepted Windows:**
 ```
-git clone https://github.com/webcoder31/grunt-init-jquery-boilerplate.git ~/.grunt-init/jquery-boilerplate
+git clone https://github.com/webcoder31/grunt-init-jquery-boilerplate.git ~/.grunt-init/jquery-plugin-boilerplate
 ```
 
 **Windows OS:**
 ```
-git clone https://github.com/webcoder31/grunt-init-jquery-boilerplate.git %USERPROFILE%\.grunt-init\jquery-boilerplate
+git clone https://github.com/webcoder31/jquery-plugin-boilerplate.git %USERPROFILE%\.grunt-init\jquery-plugin-boilerplate
 ```
 
 From now on, you will no longer need to do this again to use the scaffolding tool with the supplied template. Both will be directly available and we will see how to use them in the next topic.
@@ -141,15 +141,15 @@ jQuery recommends moving to [npm](https://www.npmjs.com/), using ["jquery-plugin
 
 ## Contributing
 
-There are two ways to contribute to the **grunt-init-jquery-boilerplate** project:
+There are two ways to contribute to the **jquery-plugin-boilerplate** project:
 
-- You found a bug or wish to suggest an enhancement? You can report issues or ask for improvments [here](https://github.com/webcoder31/grunt-init-jquery-boilerplate/issues).
-- You want to contribute actively by providing your own feature? Please, look at the [Contributing Guideline](https://github.com/webcoder31/grunt-init-jquery-boilerplate/blob/master/.github/CONTRIBUTING.md).
+- You found a bug or wish to suggest an enhancement? You can report issues or ask for improvments [here](https://github.com/webcoder31/jquery-plugin-boilerplate/issues).
+- You want to contribute actively by providing your own feature? Please, look at the [Contributing Guideline](https://github.com/webcoder31/jquery-plugin-boilerplate/blob/master/.github/CONTRIBUTING.md).
 
 
 ## History
 
-Check [Releases](https://github.com/webcoder31/grunt-init-jquery-boilerplate/releases) for detailed changelog.
+Check [Releases](https://github.com/webcoder31/jquery-plugin-boilerplate/releases) for detailed changelog.
 
 
 ## Thanks
