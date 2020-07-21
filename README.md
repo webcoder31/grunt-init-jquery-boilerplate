@@ -57,7 +57,7 @@ Once **grunt-init** is installed, place the **jquery-plugin-boilerplate** templa
 
 **All OS excepted Windows:**
 ```
-git clone https://github.com/webcoder31/grunt-init-jquery-boilerplate.git ~/.grunt-init/jquery-plugin-boilerplate
+git clone https://github.com/webcoder31/jquery-plugin-boilerplate.git ~/.grunt-init/jquery-plugin-boilerplate
 ```
 
 **Windows OS:**
