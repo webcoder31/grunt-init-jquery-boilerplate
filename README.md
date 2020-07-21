@@ -69,12 +69,12 @@ From now on, you will no longer need to do this again to use the scaffolding too
 
 ## Usage
 
-### Scaffolding your plugin boilerplate
+### Scaffolding your JQuery plugin boilerplate
 
 At the command-line, move into an empty directory, run this command and follow the prompts.
 
 ```
-grunt-init jquery-boilerplate
+grunt-init jquery-plugin-boilerplate
 ```
 
 Once done, if for example you named your plugin project "**myplugin**" when prompted, you've got a ready-to-use project with the following basic structure:
