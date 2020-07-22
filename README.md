@@ -1,6 +1,6 @@
 # jquery-plugin-boilerplate
 
-> Get a ready-to-use jQuery plugin boilerplate in less than a minute and start developing right now!
+> Get a ready-to-use jQuery plugin boilerplate in less than a minute and start coding right now!
 
 <!-- Link's sortcuts -->
 [grunt]: http://gruntjs.com/
